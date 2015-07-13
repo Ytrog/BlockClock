@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlockClock", "BlockClock\BlockClock.csproj", "{12B81A47-237B-4CE4-8E83-4DEE1FBCE0ED}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlockClock.core", "BlockClock.core\BlockClock.core.csproj", "{94CA8805-EF1D-4F1A-8988-ADB1FEEF42F6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{12B81A47-237B-4CE4-8E83-4DEE1FBCE0ED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{12B81A47-237B-4CE4-8E83-4DEE1FBCE0ED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{12B81A47-237B-4CE4-8E83-4DEE1FBCE0ED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{12B81A47-237B-4CE4-8E83-4DEE1FBCE0ED}.Release|Any CPU.Build.0 = Release|Any CPU
+		{94CA8805-EF1D-4F1A-8988-ADB1FEEF42F6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{94CA8805-EF1D-4F1A-8988-ADB1FEEF42F6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{94CA8805-EF1D-4F1A-8988-ADB1FEEF42F6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{94CA8805-EF1D-4F1A-8988-ADB1FEEF42F6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
