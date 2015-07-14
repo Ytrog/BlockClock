@@ -28,11 +28,13 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             this.pbTime = new System.Windows.Forms.ProgressBar();
             this.cmbSize = new System.Windows.Forms.ComboBox();
             this.label1 = new System.Windows.Forms.Label();
             this.rtbClock = new System.Windows.Forms.RichTextBox();
             this.btnToggle = new System.Windows.Forms.Button();
+            this.timer1 = new System.Windows.Forms.Timer(this.components);
             this.SuspendLayout();
             // 
             // pbTime
@@ -55,7 +57,8 @@
             "10",
             "15",
             "20",
-            "30"});
+            "30",
+            "60"});
             this.cmbSize.Location = new System.Drawing.Point(51, 13);
             this.cmbSize.Name = "cmbSize";
             this.cmbSize.Size = new System.Drawing.Size(121, 21);
@@ -75,7 +78,9 @@
             this.rtbClock.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
+            this.rtbClock.DetectUrls = false;
             this.rtbClock.Enabled = false;
+            this.rtbClock.Font = new System.Drawing.Font("Microsoft Sans Serif", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.rtbClock.Location = new System.Drawing.Point(13, 40);
             this.rtbClock.Name = "rtbClock";
             this.rtbClock.ReadOnly = true;
@@ -92,6 +97,10 @@
             this.btnToggle.Text = "Start";
             this.btnToggle.UseVisualStyleBackColor = true;
             this.btnToggle.Click += new System.EventHandler(this.btnToggle_Click);
+            // 
+            // timer1
+            // 
+            this.timer1.Tick += new System.EventHandler(this.timer1_Tick);
             // 
             // Form1
             // 
@@ -118,6 +127,7 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.RichTextBox rtbClock;
         private System.Windows.Forms.Button btnToggle;
+        private System.Windows.Forms.Timer timer1;
     }
 }
 

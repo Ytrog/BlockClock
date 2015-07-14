@@ -15,7 +15,7 @@ namespace BlockClock.core
 
         public Clock(int blockSize, bool bypass = false)
         {
-            if (!new[] { 1, 2, 5, 10, 15, 20, 30 }.Contains(blockSize) && !bypass)
+            if (!new[] { 1, 2, 5, 10, 15, 20, 30, 60 }.Contains(blockSize) && !bypass)
             {
                 throw new ArgumentOutOfRangeException("blockSize");
             }
